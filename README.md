@@ -57,3 +57,55 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## CodeMirror official language highlight
+
+- angular
+- css
+- cpp
+- go
+- html
+- java
+- javascript
+- json
+- liquid
+- lezer
+- less
+- markdown
+- python
+- php
+- sql
+- sass/scss
+- vue
+- wast(WebAssembly)
+- xml
+- yaml
+
+- data
+
+
+Contributing
+Community Packages
+This page lists CodeMirror-related packages maintained by the wider community. Note that the CodeMirror maintainers make no claims about the quality or fitness-for-purpose of any of these. See below for instructions on helping maintain this page.
+
+```
+remove clojure-mode 2m
+remove codemirror-lang-elixir 1y
+remove codemirror-lang-golfscript 3y
+remove cm6-graphql 4m
+remove cm-lang-dot 8m or @viz-js/lang-dot 3m
+remove @xiechao/codemirror-lang-handlebars 1y
+remove codemirror-lang-hcl 10m
+remove codemirror-lang-http-bak 1y
+remove codemirror-lang-j 3y
+remove codemirror-lang-janet 2y
+remove codemirror-json-schema 1m
+remove @plutojl/lang-julia 6m
+remove codemirror-lang-liquid 2y
+remove @replit/codemirror-lang-nix 2y
+remove codemirror-lang-r 3m
+remove @replit/codemirror-lang-solidarity 1y
+remove codemirror-lang-sparql 4m
+remove @replit/codemirror-lang-svelte 1y
+remove codemirror-lang-wgsl 2y
+```

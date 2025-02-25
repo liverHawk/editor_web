@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 import EasyMDE from 'easymde';
-import hljs from 'highlight.js';
-// import { writeFile } from 'fs';
 
 @Component({
   selector: 'app-easymde-editor',
@@ -22,7 +20,6 @@ export class EasymdeEditorComponent implements OnInit {
       lineNumbers: true,
       renderingConfig: {
         codeSyntaxHighlighting: true,
-        hljs: hljs
       },
       spellChecker: false,
       status: false,
