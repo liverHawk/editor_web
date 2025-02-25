@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 import { EditorView, basicSetup } from "codemirror";
 import { Compartment } from '@codemirror/state';
 import { LanguageSupport } from '@codemirror/language';
@@ -31,5 +31,16 @@ export class CodemirrorEditorComponent implements OnInit {
 
   getLanguageExtension(filename: string): (() => LanguageSupport) | undefined {
     return getLanguageExtension(filename);
+  }
+
+  getEditorContent(): string {
+    return this.view.state.doc.toString();
+  }
+
+  @HostListener("document:keydown.control.s", ["$event"])
+  handleCtrlS(event: KeyboardEvent) {
+    event.preventDefault();
+    console.log("Ctrl+S detected");
+    console.log(this.getEditorContent());
   }
 }
