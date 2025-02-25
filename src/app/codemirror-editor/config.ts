@@ -17,6 +17,8 @@ import { vue } from "@codemirror/lang-vue";
 import { wast } from "@codemirror/lang-wast";
 import { xml } from "@codemirror/lang-xml";
 import { yaml } from "@codemirror/lang-yaml";
+
+// import {ruby} from "@codemirror/legacy-modes/modes";
 /** language import end*/
 
 import { Extension } from "@codemirror/state";
