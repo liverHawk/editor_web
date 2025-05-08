@@ -5,4 +5,5 @@ import { CodemirrorEditorComponent } from './codemirror-editor/codemirror-editor
 
 export const routes: Routes = [
   { path: "", component: CodemirrorEditorComponent },
+  { path: "easymde", component: EasymdeEditorComponent },
 ];
